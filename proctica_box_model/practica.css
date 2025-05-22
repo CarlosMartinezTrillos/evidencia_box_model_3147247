@@ -1,0 +1,67 @@
+/*selector de clase
+    - se determina con (.)
+    -todas las etiquetas con esa clase
+    tendran el mismo estilo
+
+*/
+/*
+    Modelo de caja:
+contenido: texto, imagenes, videos, svg
+           para que se de el madelo de una caja 
+           debe habercontenido o debe tener ancho
+           y alto
+
+padding(relleno): capa en tre el continido 
+            y en relleno
+*/
+.box1{
+    display: block;
+    background-color: DarkSlateBlue;
+    height: 200px ; 
+    padding-top: 80px ; 
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+}
+.box2{
+    display: block;
+    background-color:   blue;
+    /*Propiedades width(ancho) y heigth(alto)
+      aplican solo a las capas  
+    */
+    width: 50%;
+    height: 100px ;
+    padding: 30px 40px 20px;
+    border-style: inset;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+#caja3{
+    display: block;
+    padding: 40px 20px;
+    background-color: blueviolet ;
+    height: 250px;
+    border-top: red 20px outset;
+    border-bottom: blueviolet 14px ridge;
+    border-left: 10px goldenrod double;
+    border-right: 10px goldenrod double;
+    border-radius: 10px;
+}
+
+#caja4{
+    display: block;
+    background-color: aquamarine;
+    height: 100;
+    padding: 8px;
+    border-top-color: blue;
+    border-top-style: double;
+    border-top-width: 20px;
+    border-radius: 10px;
+}
